@@ -15,5 +15,9 @@ public class Stu {
     @GenericGenerator(name = "uuid",strategy = "uuid")
     private String id;
     private String name;
+
+
+
+
     private BigDecimal money;
 }
